@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, List, ListItem, Underline } from "./styles";
 
-const items = ["About Me", "Projects", "Skills", "Contact"];
+const items = ["Home", "About Me", "Projects", "Skills", "Contact"];
 
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState<string>(items[0]);
