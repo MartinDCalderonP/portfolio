@@ -2,11 +2,16 @@ import styled from "@emotion/styled";
 import { motion } from "framer-motion";
 
 export const Container = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 0.5rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #eea47fff;
 `;
 
 export const List = styled.ul`
