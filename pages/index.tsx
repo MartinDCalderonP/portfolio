@@ -18,7 +18,11 @@ const Home = () => {
     <>
       <Navbar activeItem={activeItem} handleItemClick={handleItemClick} />
       <Container>
-        <Card>
+        <Card
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1 }}
+        >
           {activeItem === "Home" && <Presentation />}
           {activeItem === "About Me" && <AboutMe />}
           {activeItem === "Projects" && <Projects />}
