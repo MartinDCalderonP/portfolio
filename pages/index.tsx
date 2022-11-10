@@ -16,11 +16,11 @@ const Home = () => {
   return (
     <>
       <Navbar activeItem={activeItem} handleItemClick={handleItemClick} />
-      <Presentation />
-      <AboutMe />
-      <Projects />
-      <Skills />
-      <Contact />
+      {activeItem === "Home" && <Presentation />}
+      {activeItem === "About Me" && <AboutMe />}
+      {activeItem === "Projects" && <Projects />}
+      {activeItem === "Skills" && <Skills />}
+      {activeItem === "Contact" && <Contact />}
     </>
   );
 };
