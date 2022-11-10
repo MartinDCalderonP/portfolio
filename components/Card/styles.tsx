@@ -14,4 +14,12 @@ export const Container = styled(motion.div)`
   padding: 1rem;
   margin: 1rem;
   margin-top: 5rem;
+  background-image: linear-gradient(
+    30deg,
+    #00929cff 25%,
+    #9cc3d5ff 40%,
+    #9cc3d5ff 60%,
+    #00929cff 75%,
+    #00929cff
+  );
 `;
