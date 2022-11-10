@@ -1,15 +1,13 @@
-import { useState } from "react";
 import { Container, List, ListItem, Underline } from "./styles";
 
 const items = ["Home", "About Me", "Projects", "Skills", "Contact"];
 
-const Navbar = () => {
-  const [activeItem, setActiveItem] = useState<string>(items[0]);
+interface INavbar {
+  activeItem: string;
+  handleItemClick: (item: string) => void;
+}
 
-  const handleItemClick = (item: string) => {
-    setActiveItem(item);
-  };
-
+const Navbar = ({ activeItem, handleItemClick }: INavbar) => {
   return (
     <Container>
       <List>
