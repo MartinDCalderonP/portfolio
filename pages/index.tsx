@@ -5,6 +5,7 @@ import AboutMe from "../components/AboutMe";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
+import { Container } from "./styles";
 
 const Home = () => {
   const [activeItem, setActiveItem] = useState<string>("Home");
@@ -16,11 +17,13 @@ const Home = () => {
   return (
     <>
       <Navbar activeItem={activeItem} handleItemClick={handleItemClick} />
-      {activeItem === "Home" && <Presentation />}
-      {activeItem === "About Me" && <AboutMe />}
-      {activeItem === "Projects" && <Projects />}
-      {activeItem === "Skills" && <Skills />}
-      {activeItem === "Contact" && <Contact />}
+      <Container>
+        {activeItem === "Home" && <Presentation />}
+        {activeItem === "About Me" && <AboutMe />}
+        {activeItem === "Projects" && <Projects />}
+        {activeItem === "Skills" && <Skills />}
+        {activeItem === "Contact" && <Contact />}
+      </Container>
     </>
   );
 };
