@@ -5,7 +5,7 @@ import AboutMe from "../components/AboutMe";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
-import { Container, Card } from "./styles";
+import { Container } from "./styles";
 
 const Home = () => {
   const [activeItem, setActiveItem] = useState<string>("Home");
@@ -18,17 +18,11 @@ const Home = () => {
     <>
       <Navbar activeItem={activeItem} handleItemClick={handleItemClick} />
       <Container>
-        <Card
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 1 }}
-        >
-          {activeItem === "Home" && <Presentation />}
-          {activeItem === "About Me" && <AboutMe />}
-          {activeItem === "Projects" && <Projects />}
-          {activeItem === "Skills" && <Skills />}
-          {activeItem === "Contact" && <Contact />}
-        </Card>
+        {activeItem === "Home" && <Presentation />}
+        {activeItem === "About Me" && <AboutMe />}
+        {activeItem === "Projects" && <Projects />}
+        {activeItem === "Skills" && <Skills />}
+        {activeItem === "Contact" && <Contact />}
       </Container>
     </>
   );
