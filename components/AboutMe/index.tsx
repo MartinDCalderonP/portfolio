@@ -1,5 +1,5 @@
 import Card from "../Card";
-import { Container, TitleUnderline } from "./styles";
+import { Container } from "./styles";
 
 const texts = [
   "I'm a Front End Developer with a passion for building web applications and learning new technologies. 📖",
@@ -11,10 +11,8 @@ const texts = [
 
 const AboutMe = () => {
   return (
-    <Card>
+    <Card title="About Me">
       <Container>
-        <h1>About Me</h1>
-        <TitleUnderline />
         {texts?.map((text, index) => (
           <p key={index}>{text}</p>
         ))}

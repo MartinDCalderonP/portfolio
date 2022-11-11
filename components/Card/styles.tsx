@@ -23,3 +23,9 @@ export const Container = styled(motion.div)`
     #00929cff
   );
 `;
+
+export const TitleUnderline = styled.div`
+  width: 100%;
+  height: 2px;
+  background-color: #00539cff;
+`;
