@@ -7,7 +7,7 @@ export const Container = styled(motion.div)`
   align-items: center;
   justify-content: center;
   background-color: #9cc3d5ff;
-  min-height: 80%;
+  min-height: 80vh;
   height: fit-content;
   width: 90%;
   border-radius: 2rem;
