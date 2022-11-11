@@ -4,7 +4,6 @@ import Presentation from "../components/Presentation";
 import AboutMe from "../components/AboutMe";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
-import Contact from "../components/Contact";
 import { Container } from "./styles";
 
 const Home = () => {
@@ -22,7 +21,6 @@ const Home = () => {
         {activeItem === "About Me" && <AboutMe />}
         {activeItem === "Projects" && <Projects />}
         {activeItem === "Skills" && <Skills />}
-        {activeItem === "Contact" && <Contact />}
       </Container>
     </>
   );
