@@ -1,6 +1,6 @@
 import { Container, List, ListItem, Underline } from "./styles";
 
-const items = ["Home", "About Me", "Projects", "Skills"];
+const items = ["Home", "About Me", "Projects", "Tech Stack"];
 
 interface INavbar {
   activeItem: string;

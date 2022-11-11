@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Presentation from "../components/Presentation";
 import AboutMe from "../components/AboutMe";
 import Projects from "../components/Projects";
-import Skills from "../components/Skills";
+import TechStack from "../components/TechStack";
 import { Container } from "./styles";
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
         {activeItem === "Home" && <Presentation />}
         {activeItem === "About Me" && <AboutMe />}
         {activeItem === "Projects" && <Projects />}
-        {activeItem === "Skills" && <Skills />}
+        {activeItem === "Tech Stack" && <TechStack />}
       </Container>
     </>
   );
