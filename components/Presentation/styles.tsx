@@ -1,6 +1,46 @@
 import styled from "@emotion/styled";
 import { motion } from "framer-motion";
 
+const TypingText = `
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid;
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }
+`;
+
+export const TypingH1 = styled(motion.h1)`
+  ${TypingText}
+  animation: typingh1 2s steps(30, end), blink-caret 0.75s step-end infinite;
+
+  @keyframes typingh1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 24ch;
+    }
+  }
+`;
+
+export const TypingH2 = styled(motion.h2)`
+  ${TypingText}
+  animation: typingh2 2s steps(30, end), blink-caret 0.75s step-end infinite;
+
+  @keyframes typingh2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 34ch;
+    }
+  }
+`;
+
 export const SocialIcons = styled(motion.div)`
   display: flex;
   justify-content: center;
