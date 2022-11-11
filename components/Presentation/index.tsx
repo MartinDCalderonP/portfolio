@@ -25,7 +25,7 @@ const Presentation = () => {
     <Card>
       <TypingH1>Hi! My name is Martín Calderón</TypingH1>
 
-      <TypingH2>I'm a Front End Developer from Argentina 🇦🇷</TypingH2>
+      <TypingH2>{"I'm a Front End Developer from Argentina 🇦🇷"}</TypingH2>
 
       <SocialIcons
         initial={{ opacity: 0 }}
