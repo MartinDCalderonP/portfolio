@@ -1,5 +1,5 @@
 import Card from "../Card";
-import { Container, Column, Row, MiniCard, LogoImage } from "./styles";
+import { Container, Column, Row, TechCard, LogoImage } from "./styles";
 
 const tech = [
   {
@@ -104,11 +104,11 @@ const TechStack = () => {
 
             <Row>
               {items?.map(({ name, image }) => (
-                <MiniCard key={name} whileHover={{ scale: 1.1 }}>
+                <TechCard key={name} whileHover={{ scale: 1.1 }}>
                   {image && <LogoImage src={image} alt={name} />}
 
                   <p>{name}</p>
-                </MiniCard>
+                </TechCard>
               ))}
             </Row>
           </Column>

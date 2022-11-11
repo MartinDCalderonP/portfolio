@@ -26,7 +26,7 @@ export const Row = styled.div`
   margin: 1rem 0;
 `;
 
-export const MiniCard = styled(motion.div)`
+export const TechCard = styled(motion.div)`
   display: flex;
   flex-direction: column;
   align-items: center;
