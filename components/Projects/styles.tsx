@@ -52,8 +52,7 @@ export const Tags = styled(motion.p)`
   font-size: 0.9rem;
   font-weight: 300;
   color: #00539cff;
-  margin-top: 1rem;
-  width: 75%;
+  max-width: 80%;
 `;
 
 export const LinksContainer = styled(motion.div)`
