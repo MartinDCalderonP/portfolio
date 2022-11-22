@@ -1,4 +1,5 @@
 import Card from "components/Card";
+import { motion } from "framer-motion";
 import { Container } from "./styles";
 
 const texts = [
@@ -13,8 +14,17 @@ const AboutMe = () => {
   return (
     <Card title="About Me">
       <Container>
-        {texts?.map((text, index) => (
-          <p key={index}>{text}</p>
+        {texts?.map((text) => (
+          <motion.p
+            key={text}
+            whileHover={{
+              scale: 1.05,
+              transition: { duration: 0.2 },
+              translateX: 5,
+            }}
+          >
+            {text}
+          </motion.p>
         ))}
       </Container>
     </Card>
