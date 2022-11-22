@@ -17,7 +17,7 @@ import {
 
 const projects = [
   {
-    title: "Portofolio",
+    title: "Portfolio",
     description:
       "This is the portofolio you're currently seeing. It's built with Next.js, TypeScript and Emotion. It's also hosted on Vercel.",
     image: Portfolio,
