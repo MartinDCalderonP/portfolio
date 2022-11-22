@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FiGithub, FiLink } from "react-icons/fi";
-import Card from "../Card";
+import Card from "components/Card";
 import BoardGames from "../../images/board-games.png";
 import GoogleClone from "../../images/google-clone.png";
 import YouTubeClone from "../../images/youtube-clone.png";

@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Navbar from "../components/Navbar";
-import Presentation from "../components/Presentation";
-import AboutMe from "../components/AboutMe";
-import Projects from "../components/Projects";
-import TechStack from "../components/TechStack";
+import Navbar from "components/Navbar";
+import Presentation from "components/Presentation";
+import AboutMe from "components/AboutMe";
+import Projects from "components/Projects";
+import TechStack from "components/TechStack";
 import { Container } from "./styles";
 
 const Home = () => {

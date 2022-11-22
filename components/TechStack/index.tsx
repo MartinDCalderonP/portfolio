@@ -1,4 +1,4 @@
-import Card from "../Card";
+import Card from "components/Card";
 import { Container, Column, Row, TechCard, LogoImage } from "./styles";
 
 const tech = [
