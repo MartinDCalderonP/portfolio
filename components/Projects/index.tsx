@@ -23,7 +23,7 @@ const projects = [
     image: Portfolio,
     tags: ["Next.js", "TypeScript", "Emotion", "Vercel"],
     repoUrl: "https://github.com/MartinDCalderonP/portfolio",
-    deployUrl: "",
+    deployUrl: "https://portfolio-martindcalderonp.vercel.app/",
   },
   {
     title: "IMDB App",
