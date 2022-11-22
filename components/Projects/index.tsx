@@ -22,7 +22,7 @@ const projects = [
       "This is the portofolio you're currently seeing. It's built with Next.js, TypeScript and Emotion. It's also hosted on Vercel.",
     image: Portfolio,
     tags: ["Next.js", "TypeScript", "Emotion", "Vercel"],
-    repoUrl: "",
+    repoUrl: "https://github.com/MartinDCalderonP/portfolio",
     deployUrl: "",
   },
   {
