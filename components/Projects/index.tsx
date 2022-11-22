@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { FiGithub, FiLink } from "react-icons/fi";
 import Card from "components/Card";
-import BoardGames from "../../images/board-games.png";
-import GoogleClone from "../../images/google-clone.png";
-import YouTubeClone from "../../images/youtube-clone.png";
-import IMDBApp from "../../images/imdb-app.png";
+import Portfolio from "images/portfolio.png";
+import IMDBApp from "images/imdb-app.png";
+import YouTubeClone from "images/youtube-clone.png";
+import GoogleClone from "images/google-clone.png";
 import {
   Container,
   Description,
@@ -16,6 +16,15 @@ import {
 } from "./styles";
 
 const projects = [
+  {
+    title: "Portofolio",
+    description:
+      "This is the portofolio you're currently seeing. It's built with Next.js, TypeScript and Emotion. It's also hosted on Vercel.",
+    image: Portfolio,
+    tags: ["Next.js", "TypeScript", "Emotion", "Vercel"],
+    repoUrl: "",
+    deployUrl: "",
+  },
   {
     title: "IMDB App",
     description:
@@ -51,15 +60,6 @@ const projects = [
     tags: ["React", "SASS Modules", "Custom Hooks", "Context API", "Firebase"],
     repoUrl: "https://github.com/MartinDCalderonP/Google-Clone",
     deployUrl: "https://clone-d3b31.web.app/",
-  },
-  {
-    title: "Board Games",
-    description:
-      "A Board Games app where you can play Tic Tac Toe and a Memory game",
-    image: BoardGames,
-    tags: ["React", "SASS", "Custom Hooks", "TypeScript"],
-    repoUrl: "https://github.com/MartinDCalderonP/board-games-week-07",
-    deployUrl: "https://board-games-week-07.vercel.app/",
   },
 ];
 
