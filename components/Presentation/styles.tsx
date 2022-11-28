@@ -11,6 +11,14 @@ const TypingText = `
     from, to { border-color: transparent }
     50% { border-color: black }
   }
+
+  @media (max-width: 768px) {
+    animation: none;
+    border-right: none;
+    overflow: visible;
+    white-space: normal;
+    text-align: center;
+  }
 `;
 
 export const TypingH1 = styled(motion.h1)`
