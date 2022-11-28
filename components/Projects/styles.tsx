@@ -74,3 +74,14 @@ export const LinkButton = styled(motion.a)`
   cursor: pointer;
   text-decoration: none;
 `;
+
+export const MoreProjects = styled(motion.p)`
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  text-align: center;
+`;
+
+export const GitHubLink = styled(motion.a)`
+  opacity: 0.75;
+`;

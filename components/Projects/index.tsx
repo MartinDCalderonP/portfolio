@@ -8,8 +8,10 @@ import GoogleClone from "images/google-clone.png";
 import {
   Container,
   Description,
+  GitHubLink,
   LinkButton,
   LinksContainer,
+  MoreProjects,
   Picture,
   ProjectCard,
   Tags,
@@ -98,6 +100,17 @@ const Projects = () => {
             </LinksContainer>
           </ProjectCard>
         ))}
+
+        <MoreProjects>
+          You can find more projects on my{" "}
+          <GitHubLink
+            href="https://github.com/MartinDCalderonP?tab=repositories"
+            
+          >
+            GitHub
+          </GitHubLink>{" "}
+          repository.
+        </MoreProjects>
       </Container>
     </Card>
   );
