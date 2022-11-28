@@ -34,10 +34,10 @@ export const TechCard = styled(motion.div)`
   width: 150px;
   height: 150px;
   border-radius: 10px;
-  border: 1px solid #00539cff;
+  border: 1px solid #dba39a;
   padding-top: 1.25rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #9cc3d5ff;
+  background-color: #f0dbdb;
 `;
 
 export const LogoImage = styled.img`

@@ -15,7 +15,7 @@ export const MainContainer = styled.div`
   min-height: 100vh;
   height: fit-content;
   width: 100%;
-  background-color: #00539cff;
+  background-color: #fefcf3;
 `;
 
 const Home = () => {

@@ -10,8 +10,8 @@ export const Container = styled.div`
   justify-content: flex-end;
   align-items: center;
   padding: 0.5rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #9cc3d5ff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #f5ebe0;
   z-index: 100;
 `;
 

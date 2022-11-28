@@ -21,10 +21,10 @@ export const ProjectCard = styled(motion.div)`
   height: 500px;
   padding: 1rem;
   border-radius: 10px;
-  border: 1px solid #00539cff;
+  border: 1px solid #dba39a;
   padding-top: 1.25rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #9cc3d5ff;
+  background-color: #f0dbdb;
 `;
 
 export const Picture = styled(motion.picture)`
@@ -70,9 +70,9 @@ export const LinkButton = styled(motion.a)`
   width: 50px;
   height: 50px;
   border-radius: 10px;
-  border: 1px solid #00539cff;
+  border: 1px solid #dba39a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #9cc3d5ff;
+  background-color: #f0dbdb;
   cursor: pointer;
   text-decoration: none;
 `;
