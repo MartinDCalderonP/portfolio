@@ -43,7 +43,6 @@ export const Picture = styled(motion.picture)`
 export const Description = styled(motion.p)`
   font-size: 1.25rem;
   font-weight: 500;
-  color: #00539cff;
   margin: 1rem 0;
   text-align: center;
 `;
@@ -51,7 +50,6 @@ export const Description = styled(motion.p)`
 export const Tags = styled(motion.p)`
   font-size: 0.9rem;
   font-weight: 300;
-  color: #00539cff;
   max-width: 80%;
 `;
 
