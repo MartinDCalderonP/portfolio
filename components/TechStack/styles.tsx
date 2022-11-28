@@ -32,11 +32,12 @@ export const TechCard = styled(motion.div)`
   align-items: center;
   justify-content: center;
   text-align: center;
+  min-height: 150px;
   width: 150px;
-  height: 150px;
+  height: fit-content;
   border-radius: 10px;
   border: 1px solid #dba39a;
-  padding-top: 1.25rem;
+  padding: 1rem 0.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background-color: #f0dbdb;
 
