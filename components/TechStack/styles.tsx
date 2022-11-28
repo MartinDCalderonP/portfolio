@@ -31,6 +31,7 @@ export const TechCard = styled(motion.div)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: 150px;
   height: 150px;
   border-radius: 10px;
@@ -38,6 +39,12 @@ export const TechCard = styled(motion.div)`
   padding-top: 1.25rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background-color: #f0dbdb;
+
+  @media (max-width: 768px) {
+    width: 125px;
+    height: 125px;
+    padding-top: 0.75rem;
+  }
 `;
 
 export const LogoImage = styled.img`
