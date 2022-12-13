@@ -19,11 +19,29 @@ export const MainContainer = styled.div`
   background-color: #fefcf3;
 `;
 
+const items = ["Home", "About Me", "Projects", "Tech Stack"];
+
 const Home = () => {
   const [activeItem, setActiveItem] = useState<string>("Home");
 
   const handleItemClick = (item: string) => {
     setActiveItem(item);
+  };
+
+  const handleLeftArrowClick = () => {
+    const currentIndex = items.indexOf(activeItem);
+    const nextIndex = currentIndex === 0 ? items.length - 1 : currentIndex - 1;
+    const nextItem = items[nextIndex];
+
+    setActiveItem(nextItem);
+  };
+
+  const handleRightArrowClick = () => {
+    const currentIndex = items.indexOf(activeItem);
+    const nextIndex = currentIndex === items.length - 1 ? 0 : currentIndex + 1;
+    const nextItem = items[nextIndex];
+
+    setActiveItem(nextItem);
   };
 
   return (
@@ -40,12 +58,14 @@ const Home = () => {
       <Navbar activeItem={activeItem} handleItemClick={handleItemClick} />
 
       <MainContainer>
-        <ArrowButton direction="left" />
+        <ArrowButton direction="left" onClick={handleLeftArrowClick} />
+
         {activeItem === "Home" && <Presentation />}
         {activeItem === "About Me" && <AboutMe />}
         {activeItem === "Projects" && <Projects />}
         {activeItem === "Tech Stack" && <TechStack />}
-        <ArrowButton direction="right" />
+
+        <ArrowButton direction="right" onClick={handleRightArrowClick} />
       </MainContainer>
     </>
   );
