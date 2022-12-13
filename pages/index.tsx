@@ -5,6 +5,7 @@ import Presentation from "components/Presentation";
 import AboutMe from "components/AboutMe";
 import Projects from "components/Projects";
 import TechStack from "components/TechStack";
+import ArrowButton from "components/ArrowButton";
 import styled from "@emotion/styled";
 
 export const MainContainer = styled.div`
@@ -39,10 +40,12 @@ const Home = () => {
       <Navbar activeItem={activeItem} handleItemClick={handleItemClick} />
 
       <MainContainer>
+        <ArrowButton direction="left" />
         {activeItem === "Home" && <Presentation />}
         {activeItem === "About Me" && <AboutMe />}
         {activeItem === "Projects" && <Projects />}
         {activeItem === "Tech Stack" && <TechStack />}
+        <ArrowButton direction="right" />
       </MainContainer>
     </>
   );
