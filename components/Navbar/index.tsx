@@ -1,13 +1,12 @@
 import { Container, List, ListItem, Underline } from "./styles";
 
-const items = ["Home", "About Me", "Projects", "Tech Stack"];
-
 interface INavbar {
   activeItem: string;
   handleItemClick: (item: string) => void;
+  items: string[];
 }
 
-const Navbar = ({ activeItem, handleItemClick }: INavbar) => {
+const Navbar = ({ activeItem, handleItemClick, items }: INavbar) => {
   return (
     <Container>
       <List>

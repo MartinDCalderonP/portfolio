@@ -55,7 +55,11 @@ const Home = () => {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
-      <Navbar activeItem={activeItem} handleItemClick={handleItemClick} />
+      <Navbar
+        activeItem={activeItem}
+        handleItemClick={handleItemClick}
+        items={items}
+      />
 
       <MainContainer>
         <ArrowButton direction="left" onClick={handleLeftArrowClick} />
