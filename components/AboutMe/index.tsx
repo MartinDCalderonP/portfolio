@@ -12,18 +12,17 @@ const texts = [
 ];
 
 const AboutMe = () => {
+  const whileHover = {
+    scale: 1.05,
+    transition: { duration: 0.2 },
+    translateX: 5,
+  };
+
   return (
     <Card title="About Me">
       <Container>
         {texts?.map((text) => (
-          <motion.p
-            key={text}
-            whileHover={{
-              scale: 1.05,
-              transition: { duration: 0.2 },
-              translateX: 5,
-            }}
-          >
+          <motion.p key={text} whileHover={whileHover}>
             {text}
           </motion.p>
         ))}
