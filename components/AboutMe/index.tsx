@@ -7,7 +7,7 @@ const texts = [
   "I've working experience with React since August 2020 and I'm looking for a new challenge. 🚀",
   "I've also worked with Next, Gatsby, Node, Express, SQL, MongoDB, Emotion, Tailwind CSS and other technologies. 👨🏽‍💻",
   "My hobbies include reading, playing with my two cats, cooking and watching movies. 🎞",
-  "I know Spanish, English, Portuguese and a basic level of French. 🌎",
+  "I know Spanish (Native), English (C2), Portuguese (Intermediate) and French (Basic). 🌎",
   "I was born in Buenos Aires and I love my city. 🇦🇷",
 ];
 
