@@ -3,7 +3,7 @@ import { Container, Column, Row, TechCard, LogoImage } from "./styles";
 
 const today = new Date();
 
-const tech = [
+const techs = [
   {
     title: "Frontend",
     items: [
@@ -155,7 +155,7 @@ const TechStack = () => {
   return (
     <Card title="Tech Stack">
       <Container>
-        {tech?.map(({ title, items }) => (
+        {techs?.map(({ title, items }) => (
           <Column key={title}>
             <h2>{title}</h2>
 
