@@ -3,10 +3,14 @@ import { motion } from "framer-motion";
 
 export const Container = styled(motion.div)`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   height: 100%;
   gap: 1.5rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const Column = styled.div`
@@ -15,6 +19,10 @@ export const Column = styled.div`
   align-items: center;
   justify-content: center;
   width: 50%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Row = styled.div`
