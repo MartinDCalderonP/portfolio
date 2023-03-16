@@ -196,7 +196,7 @@ const techs = [
       {
         name: "Vercel",
         image:
-          "https://seeklogo.com/images/V/vercel-logo-11E85AE911-seeklogo.com.png",
+          "https://media.licdn.com/dms/image/C560BAQHzRmUo-uRc3g/company-logo_200_200/0/1587463448826?e=1686787200&v=beta&t=bXk-NwJBnN0tu5Pcko1P0a_VWHijWjz-WbmmIa56yBs",
         years: today.getFullYear() - 2020,
       },
       {
