@@ -50,7 +50,7 @@ const Home = () => {
         <title>Martín Calderón | Portfolio</title>
         <meta
           name="description"
-          content="Martín Calderón's portfolio. Front End Developer"
+          content="Martín Calderón's portfolio. Full Stack Developer"
         />
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
