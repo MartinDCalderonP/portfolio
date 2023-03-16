@@ -189,7 +189,8 @@ const techs = [
       },
       {
         name: "Netlify",
-        image: "https://img.icons8.com/color/48/000000/netlify.png",
+        image:
+          "https://cdn.iconscout.com/icon/free/png-512/netlify-3445756-2878767.png?f=avif&w=256",
         years: today.getFullYear() - 2020,
       },
       {
