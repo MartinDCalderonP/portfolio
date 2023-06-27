@@ -3,7 +3,7 @@ const sinceTwentyNineTeen = today.getFullYear() - 2019
 const sinceTwentyTwenty = today.getFullYear() - 2020
 const sinceTwentyTwentyOne = today.getFullYear() - 2021
 const sinceTwentyTwentyTwo = today.getFullYear() - 2022
-const sinceTwentyTwentyThree = today.getFullYear() - 2023
+const sinceTwentyTwentyThree = today.getFullYear() - 2023 || 1
 
 export const techs = [
   {
@@ -154,6 +154,11 @@ export const techs = [
         years: sinceTwentyTwenty
       },
       {
+        name: "Mongoose",
+        image: "https://img.icons8.com/color/48/000000/mongoose.png",
+        years: sinceTwentyTwenty
+      },
+      {
         name: "MySQL",
         image: "https://img.icons8.com/color/48/000000/mysql-logo.png",
         years: today.getFullYear() - 2018
@@ -246,6 +251,21 @@ export const techs = [
         name: "Docker",
         image: "https://img.icons8.com/color/48/000000/docker.png",
         years: sinceTwentyTwentyTwo
+      },
+      {
+        name: "Nest",
+        image: "https://img.icons8.com/color/48/000000/nestjs.png",
+        years: sinceTwentyTwentyThree
+      },
+      {
+        name: "Prisma",
+        image: "https://img.icons8.com/color/48/000000/prisma.png",
+        years: sinceTwentyTwentyThree
+      },
+      {
+        name: "Swagger",
+        image: "https://img.icons8.com/color/48/000000/swagger.png",
+        years: sinceTwentyTwentyThree
       }
     ]
   }
