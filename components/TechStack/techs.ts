@@ -86,8 +86,7 @@ export const techs = [
       },
       {
         name: "Tailwind CSS",
-        image:
-          "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png",
+        image: "https://img.icons8.com/color/48/000000/tailwindcss.png",
         years: sinceTwentyTwentyOne
       },
       {
