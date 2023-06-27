@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import { motion } from "framer-motion";
+import styled from "@emotion/styled"
+import { motion } from "framer-motion"
 
 export const Container = styled(motion.div)`
   display: flex;
@@ -14,12 +14,11 @@ export const Container = styled(motion.div)`
   border-radius: 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
   padding: 1rem;
-  margin: 1rem;
-  margin-top: 5rem;
-`;
+  margin: 2rem 1rem 1rem;
+`
 
 export const TitleUnderline = styled.div`
   width: 100%;
   height: 2px;
   background-color: #dba39a;
-`;
+`

@@ -1,8 +1,8 @@
-import styled from "@emotion/styled";
-import { motion } from "framer-motion";
+import styled from "@emotion/styled"
+import { motion } from "framer-motion"
 
 export const Container = styled.div`
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,18 +13,18 @@ export const Container = styled.div`
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   background-color: #f5ebe0;
   z-index: 100;
-`;
+`
 
 export const List = styled.ul`
   display: flex;
   list-style: none;
   gap: 1rem;
-`;
+`
 
 export const ListItem = styled(motion.li)`
   margin-right: 1rem;
   cursor: pointer;
-`;
+`
 
 export const Underline = styled(motion.div)`
   height: 3px;
@@ -32,4 +32,4 @@ export const Underline = styled(motion.div)`
   bottom: -5px;
   left: 0;
   right: 0;
-`;
+`
