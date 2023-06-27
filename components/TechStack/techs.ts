@@ -45,7 +45,7 @@ export const techs = [
         years: sinceTwentyTwentyOne
       },
       {
-        name: "Next.js",
+        name: "Next",
         image:
           "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png",
         years: sinceTwentyTwentyOne
