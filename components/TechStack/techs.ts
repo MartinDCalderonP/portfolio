@@ -3,7 +3,7 @@ const sinceTwentyNineTeen = today.getFullYear() - 2019
 const sinceTwentyTwenty = today.getFullYear() - 2020
 const sinceTwentyTwentyOne = today.getFullYear() - 2021
 const sinceTwentyTwentyTwo = today.getFullYear() - 2022
-const sinceTwentyTwentyThree = today.getFullYear() - 2023  
+const sinceTwentyTwentyThree = today.getFullYear() - 2023
 
 export const techs = [
   {
@@ -87,7 +87,7 @@ export const techs = [
       {
         name: "Tailwind CSS",
         image:
-          "https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg",
+          "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png",
         years: sinceTwentyTwentyOne
       },
       {
