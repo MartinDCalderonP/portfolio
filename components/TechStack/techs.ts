@@ -132,6 +132,12 @@ export const techs = [
         name: "Vue",
         image: "https://img.icons8.com/color/48/000000/vue-js.png",
         years: sinceTwentyTwentyOne
+      },
+      {
+        name: "TanStack Query",
+        image:
+          "https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png",
+        years: sinceTwentyTwentyTwo
       }
     ]
   },
