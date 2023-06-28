@@ -1,17 +1,17 @@
-import Card from "components/Card";
-import { Container, Column, Row, TechCard, LogoImage } from "./styles";
-import { techs } from "./techs";
+import Card from "components/Card"
+import { Container, Column, Row, TechCard, LogoImage } from "./styles"
+import { techs } from "./techs"
 
 const TechStack = () => {
   const sortedTechsByItemYears = techs?.map((tech) => ({
     ...tech,
-    items: tech.items.sort((a, b) => b.years - a.years),
-  }));
+    items: tech.items.sort((a, b) => b.years - a.years)
+  }))
 
   return (
     <Card title="Tech Stack">
       <Container>
-        {techs?.map(({ title, items }) => (
+        {sortedTechsByItemYears?.map(({ title, items }) => (
           <Column key={title}>
             <h2>{title}</h2>
 
@@ -32,7 +32,7 @@ const TechStack = () => {
         ))}
       </Container>
     </Card>
-  );
-};
+  )
+}
 
-export default TechStack;
+export default TechStack
