@@ -138,6 +138,12 @@ export const techs = [
         image:
           "https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png",
         years: sinceTwentyTwentyTwo
+      },
+      {
+        name: "Apollo Client",
+        image:
+          "https://seeklogo.com/images/A/apollo-logo-DC7DD3C444-seeklogo.com.png",
+        years: sinceTwentyTwentyOne
       }
     ]
   },
