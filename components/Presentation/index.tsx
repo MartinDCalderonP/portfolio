@@ -1,24 +1,24 @@
-import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
-import Card from "components/Card";
-import { TypingH1, TypingH2, SocialIcons, IconButton } from "./styles";
+import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import Card from 'components/Card'
+import { TypingH1, TypingH2, SocialIcons, IconButton } from './styles'
 
 const icons = [
   {
-    name: "LinkedIn",
+    name: 'LinkedIn',
     icon: <FiLinkedin />,
-    link: "https://www.linkedin.com/in/mart%C3%ADn-calder%C3%B3n/",
+    link: 'https://www.linkedin.com/in/mart%C3%ADn-calder%C3%B3n/'
   },
   {
-    name: "GitHub",
+    name: 'GitHub',
     icon: <FiGithub />,
-    link: "https://github.com/MartinDCalderonP",
+    link: 'https://github.com/MartinDCalderonP'
   },
   {
-    name: "Email",
+    name: 'Email',
     icon: <FiMail />,
-    link: "mailto:martincalderon92@outlook.com",
-  },
-];
+    link: 'mailto:martincalderon92@outlook.com'
+  }
+]
 
 const Presentation = () => {
   return (
@@ -46,7 +46,7 @@ const Presentation = () => {
         ))}
       </SocialIcons>
     </Card>
-  );
-};
+  )
+}
 
-export default Presentation;
+export default Presentation

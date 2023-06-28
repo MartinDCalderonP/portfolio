@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import { motion } from "framer-motion";
+import styled from '@emotion/styled'
+import { motion } from 'framer-motion'
 
 const TypingText = `
   display: block;
@@ -19,7 +19,7 @@ const TypingText = `
     white-space: normal;
     text-align: center;
   }
-`;
+`
 
 export const TypingH1 = styled(motion.h1)`
   ${TypingText}
@@ -33,7 +33,7 @@ export const TypingH1 = styled(motion.h1)`
       width: 24ch;
     }
   }
-`;
+`
 
 export const TypingH2 = styled(motion.h2)`
   ${TypingText}
@@ -47,7 +47,7 @@ export const TypingH2 = styled(motion.h2)`
       width: 34ch;
     }
   }
-`;
+`
 
 export const SocialIcons = styled(motion.div)`
   display: flex;
@@ -55,7 +55,7 @@ export const SocialIcons = styled(motion.div)`
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
-`;
+`
 
 export const IconButton = styled(motion.a)`
   display: flex;
@@ -68,4 +68,4 @@ export const IconButton = styled(motion.a)`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 0 10px;
   cursor: pointer;
-`;
+`

@@ -1,6 +1,6 @@
-import Card from "components/Card"
-import { Container, Column, Row, TechCard, LogoImage } from "./styles"
-import { sortedTechsByItemYears } from "./utils"
+import Card from 'components/Card'
+import { Container, Column, Row, TechCard, LogoImage } from './styles'
+import { sortedTechsByItemYears } from './utils'
 
 const TechStack = () => {
   return (
@@ -18,7 +18,7 @@ const TechStack = () => {
                   <p>{name}</p>
 
                   <span>
-                    {years} exp year{years > 1 && "s"}
+                    {years} exp year{years > 1 && 's'}
                   </span>
                 </TechCard>
               ))}

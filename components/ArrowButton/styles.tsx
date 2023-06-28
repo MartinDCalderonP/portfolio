@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import { motion } from "framer-motion";
+import styled from '@emotion/styled'
+import { motion } from 'framer-motion'
 
 export const Button = styled(motion.button)<{ direction: string }>`
   background: transparent;
@@ -11,5 +11,5 @@ export const Button = styled(motion.button)<{ direction: string }>`
   position: absolute;
   top: 50%;
   z-index: 1;
-  ${({ direction }) => (direction === "left" ? "left: 0;" : "right: 0;")}
-`;
+  ${({ direction }) => (direction === 'left' ? 'left: 0;' : 'right: 0;')}
+`

@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import { motion } from "framer-motion";
+import styled from '@emotion/styled'
+import { motion } from 'framer-motion'
 
 export const Container = styled(motion.div)`
   display: flex;
@@ -11,7 +11,7 @@ export const Container = styled(motion.div)`
   @media (max-width: 768px) {
     flex-direction: column;
   }
-`;
+`
 
 export const Column = styled.div`
   display: flex;
@@ -23,7 +23,7 @@ export const Column = styled.div`
   @media (max-width: 768px) {
     width: 100%;
   }
-`;
+`
 
 export const Row = styled.div`
   display: flex;
@@ -32,7 +32,7 @@ export const Row = styled.div`
   align-items: center;
   gap: 1rem;
   margin: 1rem 0;
-`;
+`
 
 export const TechCard = styled(motion.div)`
   display: flex;
@@ -54,9 +54,9 @@ export const TechCard = styled(motion.div)`
     height: 125px;
     padding-top: 0.75rem;
   }
-`;
+`
 
 export const LogoImage = styled.img`
   width: 50px;
   height: 50px;
-`;
+`

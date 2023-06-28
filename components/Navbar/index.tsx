@@ -1,4 +1,4 @@
-import { Container, List, ListItem, Underline } from "./styles";
+import { Container, List, ListItem, Underline } from './styles'
 
 interface INavbar {
   activeItem: string;
@@ -21,16 +21,16 @@ const Navbar = ({ activeItem, handleItemClick, items }: INavbar) => {
 
             {activeItem === item && (
               <Underline
-                animate={{ width: "100%" }}
-                initial={{ width: "0%" }}
-                transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
+                animate={{ width: '100%' }}
+                initial={{ width: '0%' }}
+                transition={{ duration: 0.5, type: 'spring', stiffness: 120 }}
               />
             )}
           </ListItem>
         ))}
       </List>
     </Container>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

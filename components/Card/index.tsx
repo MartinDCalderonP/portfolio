@@ -1,5 +1,5 @@
-import { ReactNode } from "react";
-import { Container, TitleUnderline } from "./styles";
+import { ReactNode } from 'react'
+import { Container, TitleUnderline } from './styles'
 
 interface ICard {
   children: ReactNode;
@@ -11,7 +11,7 @@ const Card = ({ children, title }: ICard) => {
     <Container
       initial={{ x: 200, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+      transition={{ duration: 0.5, type: 'spring', stiffness: 100 }}
     >
       {title && (
         <>
@@ -23,7 +23,7 @@ const Card = ({ children, title }: ICard) => {
 
       {children}
     </Container>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card

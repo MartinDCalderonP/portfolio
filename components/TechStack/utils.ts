@@ -1,4 +1,4 @@
-import { techs } from "./techs"
+import { techs } from './techs'
 
 export const sortedTechsByItemYears = techs?.map((tech) => ({
   ...tech,
