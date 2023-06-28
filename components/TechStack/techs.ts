@@ -202,7 +202,7 @@ export const techs = [
       {
         name: "Vercel",
         image:
-          "https://media.licdn.com/dms/image/C560BAQHzRmUo-uRc3g/company-logo_200_200/0/1587463448826?e=1686787200&v=beta&t=bXk-NwJBnN0tu5Pcko1P0a_VWHijWjz-WbmmIa56yBs",
+          "https://seeklogo.com/images/V/vercel-logo-F748E39008-seeklogo.com.png",
         years: sinceTwentyTwenty
       },
       {
