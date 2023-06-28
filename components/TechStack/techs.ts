@@ -259,12 +259,14 @@ export const techs = [
       },
       {
         name: "Prisma",
-        image: "https://img.icons8.com/color/48/000000/prisma.png",
+        image:
+          "https://seeklogo.com/images/P/prisma-logo-3805665B69-seeklogo.com.png",
         years: sinceTwentyTwentyThree
       },
       {
         name: "Swagger",
-        image: "https://img.icons8.com/color/48/000000/swagger.png",
+        image:
+          "https://seeklogo.com/images/S/swagger-logo-A49F73BAF4-seeklogo.com.png",
         years: sinceTwentyTwentyThree
       }
     ]
