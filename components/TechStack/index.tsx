@@ -1,13 +1,8 @@
 import Card from "components/Card"
 import { Container, Column, Row, TechCard, LogoImage } from "./styles"
-import { techs } from "./techs"
+import { sortedTechsByItemYears } from "./utils"
 
 const TechStack = () => {
-  const sortedTechsByItemYears = techs?.map((tech) => ({
-    ...tech,
-    items: tech.items.sort((a, b) => b.years - a.years)
-  }))
-
   return (
     <Card title="Tech Stack">
       <Container>
