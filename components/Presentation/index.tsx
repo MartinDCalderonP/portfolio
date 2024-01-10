@@ -25,7 +25,7 @@ const Presentation = () => {
     <Card>
       <TypingH1>Hi! My name is Martín Calderón</TypingH1>
 
-      <TypingH2>{"I'm a Full Stack Developer from Argentina 🇦🇷"}</TypingH2>
+      <TypingH2>{"I'm a Front End Developer from Argentina 🇦🇷"}</TypingH2>
 
       <SocialIcons
         initial={{ opacity: 0 }}
@@ -36,8 +36,8 @@ const Presentation = () => {
           <IconButton
             key={icon.name}
             href={icon.link}
-            target="_blank"
-            rel="noreferrer"
+            target='_blank'
+            rel='noreferrer'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >

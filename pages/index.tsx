@@ -48,10 +48,10 @@ const Home = () => {
       <Head>
         <title>Martín Calderón | Portfolio</title>
         <meta
-          name="description"
-          content="Martín Calderón's portfolio. Full Stack Developer"
+          name='description'
+          content="Martín Calderón's portfolio. Front End Developer"
         />
-        <link rel="icon" href="/favicon-32x32.png" />
+        <link rel='icon' href='/favicon-32x32.png' />
       </Head>
 
       <Navbar
@@ -61,14 +61,14 @@ const Home = () => {
       />
 
       <MainContainer>
-        <ArrowButton direction="left" onClick={handleLeftArrowClick} />
+        <ArrowButton direction='left' onClick={handleLeftArrowClick} />
 
         {activeItem === 'Home' && <Presentation />}
         {activeItem === 'About Me' && <AboutMe />}
         {activeItem === 'Projects' && <Projects />}
         {activeItem === 'Tech Stack' && <TechStack />}
 
-        <ArrowButton direction="right" onClick={handleRightArrowClick} />
+        <ArrowButton direction='right' onClick={handleRightArrowClick} />
       </MainContainer>
     </>
   )
