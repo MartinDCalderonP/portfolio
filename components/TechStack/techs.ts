@@ -1,9 +1,10 @@
 const today = new Date()
-const sinceTwentyNineTeen = today.getFullYear() - 2019
-const sinceTwentyTwenty = today.getFullYear() - 2020
-const sinceTwentyTwentyOne = today.getFullYear() - 2021
-const sinceTwentyTwentyTwo = today.getFullYear() - 2022
-const sinceTwentyTwentyThree = today.getFullYear() - 2023 || 1
+const currentYear = today.getFullYear()
+const sinceTwentyNineTeen = currentYear - 2019
+const sinceTwentyTwenty = currentYear - 2020
+const sinceTwentyTwentyOne = currentYear - 2021
+const sinceTwentyTwentyTwo = currentYear - 2022
+const sinceTwentyTwentyThree = currentYear - 2023
 
 export const techs = [
   {
@@ -144,6 +145,23 @@ export const techs = [
         image:
           'https://seeklogo.com/images/A/apollo-logo-DC7DD3C444-seeklogo.com.png',
         years: sinceTwentyTwentyOne
+      },
+      {
+        name: 'Vite',
+        image:
+          'https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png',
+        years: sinceTwentyTwentyTwo
+      },
+      {
+        name: 'Vitest',
+        image:
+          'https://seeklogo.com/images/V/vitest-logo-9ADDA575A5-seeklogo.com.png',
+        years: sinceTwentyTwentyTwo
+      },
+      {
+        name: 'Redux',
+        image: 'https://img.icons8.com/color/48/000000/redux.png',
+        years: sinceTwentyTwenty
       }
     ]
   },
