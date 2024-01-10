@@ -7,7 +7,7 @@ const sinceTwentyTwentyThree = today.getFullYear() - 2023 || 1
 
 export const techs = [
   {
-    title: 'Frontend',
+    title: 'Front End',
     items: [
       {
         name: 'HTML 5',
@@ -148,7 +148,7 @@ export const techs = [
     ]
   },
   {
-    title: 'Backend',
+    title: 'Back End',
     items: [
       {
         name: 'Node.js',
