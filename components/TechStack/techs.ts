@@ -163,6 +163,23 @@ export const techs = [
         name: 'Redux',
         image: 'https://img.icons8.com/color/48/000000/redux.png',
         years: sinceTwentyTwenty
+      },
+      {
+        name: 'NPM',
+        image: 'https://img.icons8.com/color/48/000000/npm.png',
+        years: sinceTwentyTwenty
+      },
+      {
+        name: 'Yarn',
+        image:
+          'https://seeklogo.com/images/Y/yarn-logo-F5E7A65FA2-seeklogo.com.png',
+        years: sinceTwentyTwentyOne
+      },
+      {
+        name: 'PNPM',
+        image:
+          'https://seeklogo.com/images/P/pnpm-logo-21DC828CD8-seeklogo.com.png',
+        years: sinceTwentyTwentyThree
       }
     ]
   },
