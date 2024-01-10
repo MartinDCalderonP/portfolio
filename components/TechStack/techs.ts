@@ -1,5 +1,6 @@
 const today = new Date()
 const currentYear = today.getFullYear()
+const sinceTwentyEighteen = currentYear - 2018
 const sinceTwentyNineTeen = currentYear - 2019
 const sinceTwentyTwenty = currentYear - 2020
 const sinceTwentyTwentyOne = currentYear - 2021
@@ -117,7 +118,7 @@ export const techs = [
         name: 'Java',
         image:
           'https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png',
-        years: today.getFullYear() - 2018
+        years: sinceTwentyEighteen
       },
       {
         name: 'Python',
@@ -191,12 +192,12 @@ export const techs = [
       {
         name: 'MySQL',
         image: 'https://img.icons8.com/color/48/000000/mysql-logo.png',
-        years: today.getFullYear() - 2018
+        years: sinceTwentyEighteen
       },
       {
         name: 'SQL',
         image: 'https://img.icons8.com/color/48/000000/sql.png',
-        years: today.getFullYear() - 2018
+        years: sinceTwentyEighteen
       },
       {
         name: 'GraphQL',
