@@ -5,7 +5,7 @@ import { Container } from './styles'
 const texts = [
   "I'm a Front End Developer with a passion for building web applications and learning new technologies. 📖",
   "I've working experience with React since August 2020 and I'm looking for a new challenge. 🚀",
-  "I've also worked with Next, Gatsby, Node, Express, SQL, MongoDB, Emotion, Tailwind CSS and other technologies. 👨🏽‍💻",
+  'Also, I can make Back End applications with Node, Express, SQL, MongoDB and other technologies. 👨🏽‍💻',
   'My hobbies include reading, playing with my two cats, cooking and watching movies. 🎞',
   'I know Spanish (Native), English (C2), Portuguese (Intermediate) and French (Basic). 🌎',
   'I was born in Buenos Aires and I love my city. 🇦🇷'
