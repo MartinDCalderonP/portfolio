@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 import { motion } from 'framer-motion'
 
-export const Container = styled.div`
+export const Container = styled.nav`
   position: sticky;
   top: 0;
   left: 0;
