@@ -4,7 +4,7 @@ import { sortedTechsByItemYears } from './utils'
 
 const TechStack = () => {
   return (
-    <Card title="Tech Stack">
+    <Card title='Tech Stack'>
       <Container>
         {sortedTechsByItemYears?.map(({ title, items }) => (
           <Column key={title}>
