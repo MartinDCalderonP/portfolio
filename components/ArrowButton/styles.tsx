@@ -12,4 +12,8 @@ export const Button = styled(motion.button)<{ direction: string }>`
   top: 50%;
   z-index: 1;
   ${({ direction }) => (direction === 'left' ? 'left: 0;' : 'right: 0;')}
+
+  @media (width < 64rem) {
+    margin: 0;
+  }
 `
