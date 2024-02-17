@@ -61,11 +61,11 @@ export const IconButton = styled(motion.a)`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
-  border: 1px solid #00539cff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 0 10px;
+  border: 0.063rem solid #00539cff;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  margin: 0 0.625rem;
   cursor: pointer;
 `

@@ -10,15 +10,15 @@ export const Container = styled(motion.div)`
   min-height: 80vh;
   height: fit-content;
   width: 90%;
-  border: 1px solid #dba39a;
+  border: 0.063rem solid #dba39a;
   border-radius: 2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.75);
   padding: 1rem;
   margin: 2rem 1rem 1rem;
 `
 
 export const TitleUnderline = styled.div`
   width: 100%;
-  height: 2px;
+  height: 0.125rem;
   background-color: #dba39a;
 `

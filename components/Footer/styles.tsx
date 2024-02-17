@@ -9,7 +9,7 @@ export const Container = styled.footer`
   justify-content: center;
   align-items: center;
   padding: 0.5rem 2rem;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -0.125rem 0.25rem rgba(0, 0, 0, 0.5);
   background-color: #f5ebe0;
   z-index: 100;
 `

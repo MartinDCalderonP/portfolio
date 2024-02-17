@@ -10,7 +10,7 @@ export const Container = styled.nav`
   justify-content: flex-end;
   align-items: center;
   padding: 0.5rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
   background-color: #f5ebe0;
   z-index: 100;
 `
@@ -27,9 +27,9 @@ export const ListItem = styled(motion.li)`
 `
 
 export const Underline = styled(motion.div)`
-  height: 3px;
+  height: 0.188rem;
   background-color: #000;
-  bottom: -5px;
+  bottom: -0.313rem;
   left: 0;
   right: 0;
 `

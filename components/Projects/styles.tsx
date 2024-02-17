@@ -17,20 +17,20 @@ export const ProjectCard = styled(motion.div)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 500px;
-  height: 500px;
+  width: 31.25rem;
+  height: 31.25rem;
   padding: 1rem;
-  border-radius: 10px;
-  border: 1px solid #dba39a;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #dba39a;
   padding-top: 1.25rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
   background-color: #f0dbdb;
 `
 
 export const Picture = styled(motion.picture)`
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   overflow: hidden;
 
   img {
@@ -65,11 +65,11 @@ export const LinkButton = styled(motion.a)`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  border: 1px solid #dba39a;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #dba39a;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
   background-color: #f0dbdb;
   cursor: pointer;
   text-decoration: none;
