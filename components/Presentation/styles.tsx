@@ -12,7 +12,7 @@ const TypingText = `
     50% { border-color: black }
   }
 
-  @media (max-width: 768px) {
+  @media (width < 48rem) {
     animation: none;
     border-right: none;
     overflow: visible;

@@ -8,7 +8,7 @@ export const Container = styled(motion.div)`
   height: 100%;
   gap: 1.5rem;
 
-  @media (max-width: 768px) {
+  @media (width < 48rem) {
     flex-direction: column;
   }
 `
@@ -20,7 +20,7 @@ export const Column = styled.div`
   justify-content: center;
   width: 50%;
 
-  @media (max-width: 768px) {
+  @media (width < 48rem) {
     width: 100%;
   }
 `
