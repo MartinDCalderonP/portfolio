@@ -13,7 +13,7 @@ const TechStack = () => {
             <Row>
               {items?.map(({ name, image, years }) => (
                 <TechCard key={name} whileHover={{ scale: 1.1 }}>
-                  {image && <LogoImage src={image} alt={name} />}
+                  {image && <LogoImage src={image} alt={name} loading='lazy' />}
 
                   <p>{name}</p>
 
