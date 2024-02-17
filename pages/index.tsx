@@ -6,6 +6,7 @@ import AboutMe from 'components/AboutMe'
 import Projects from 'components/Projects'
 import TechStack from 'components/TechStack'
 import ArrowButton from 'components/ArrowButton'
+import Footer from 'components/Footer'
 import styled from '@emotion/styled'
 
 export const MainContainer = styled.div`
@@ -70,6 +71,8 @@ const Home = () => {
 
         <ArrowButton direction='right' onClick={handleRightArrowClick} />
       </MainContainer>
+
+      <Footer />
     </>
   )
 }
