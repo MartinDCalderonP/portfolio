@@ -1,4 +1,4 @@
-import Card from 'components/Card'
+import Card from '@/Components/Card'
 import { motion } from 'framer-motion'
 import { Container } from './styles'
 

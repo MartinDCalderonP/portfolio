@@ -1,4 +1,4 @@
-import Card from 'components/Card'
+import Card from '@/Components/Card'
 import { Container, Column, Row, TechCard, LogoImage } from './styles'
 import { sortedTechsByItemYears } from './utils'
 

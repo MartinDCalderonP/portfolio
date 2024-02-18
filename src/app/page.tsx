@@ -1,12 +1,12 @@
+'use client'
 import { useState } from 'react'
-import Head from 'next/head'
-import Navbar from 'components/Navbar'
-import Presentation from 'components/Presentation'
-import AboutMe from 'components/AboutMe'
-import Projects from 'components/Projects'
-import TechStack from 'components/TechStack'
-import ArrowButton from 'components/ArrowButton'
-import Footer from 'components/Footer'
+import Navbar from '@/Components/Navbar'
+import Presentation from '@/Components/Presentation'
+import AboutMe from '@/Components/AboutMe'
+import Projects from '@/Components/Projects'
+import TechStack from '@/Components/TechStack'
+import ArrowButton from '@/Components/ArrowButton'
+import Footer from '@/Components/Footer'
 import styled from '@emotion/styled'
 
 export const MainContainer = styled.div`
@@ -44,15 +44,6 @@ const Home = () => {
 
   return (
     <>
-      <Head>
-        <title>Martín Calderón | Portfolio</title>
-        <meta
-          name='description'
-          content="Martín Calderón's portfolio. Full Stack Developer"
-        />
-        <link rel='icon' href='/favicon-32x32.png' />
-      </Head>
-
       <Navbar
         activeItem={activeItem}
         handleItemClick={handleItemClick}

@@ -1,5 +1,5 @@
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
-import Card from 'components/Card'
+import Card from '@/Components/Card'
 import { TypingText, SocialIcons, IconButton } from './styles'
 
 const icons = [

@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import { FiGithub, FiLink } from 'react-icons/fi'
-import Card from 'components/Card'
-import Portfolio from 'images/portfolio.png'
-import IMDBApp from 'images/imdb-app.png'
-import YouTubeClone from 'images/youtube-clone.png'
-import GoogleClone from 'images/google-clone.png'
+import Card from '@/Components/Card'
+import Portfolio from '@/Images/portfolio.png'
+import IMDBApp from '@/Images/imdb-app.png'
+import YouTubeClone from '@/Images/youtube-clone.png'
+import GoogleClone from '@/Images/google-clone.png'
 import {
   Container,
   Description,
