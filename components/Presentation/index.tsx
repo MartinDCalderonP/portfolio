@@ -35,9 +35,10 @@ const Presentation = () => {
         {icons?.map((icon) => (
           <IconButton
             key={icon.name}
+            aria-label={`Go to ${icon.name} profile`}
             href={icon.link}
-            target='_blank'
             rel='noreferrer'
+            target='_blank'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
