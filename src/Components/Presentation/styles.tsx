@@ -1,6 +1,10 @@
 import styled from '@emotion/styled'
 import { motion } from 'framer-motion'
 
+export const MainTitle = styled(motion.h1)`
+  text-align: center;
+`
+
 export const TypingText = styled(motion.h2)`
   display: block;
   white-space: nowrap;
