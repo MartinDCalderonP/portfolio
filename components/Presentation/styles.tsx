@@ -1,15 +1,20 @@
 import styled from '@emotion/styled'
 import { motion } from 'framer-motion'
 
-const TypingText = `
+export const TypingText = styled(motion.h2)`
   display: block;
   white-space: nowrap;
   overflow: hidden;
   border-right: 0.15em solid;
 
   @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
   }
 
   @media (width < 48rem) {
@@ -19,27 +24,10 @@ const TypingText = `
     white-space: normal;
     text-align: center;
   }
-`
 
-export const TypingH1 = styled(motion.h1)`
-  ${TypingText}
-  animation: typingh1 2s steps(30, end), blink-caret 0.75s step-end infinite;
+  animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
 
-  @keyframes typingh1 {
-    from {
-      width: 0;
-    }
-    to {
-      width: 24ch;
-    }
-  }
-`
-
-export const TypingH2 = styled(motion.h2)`
-  ${TypingText}
-  animation: typingh2 2s steps(30, end), blink-caret 0.75s step-end infinite;
-
-  @keyframes typingh2 {
+  @keyframes typing {
     from {
       width: 0;
     }

@@ -1,6 +1,6 @@
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
 import Card from 'components/Card'
-import { TypingH1, TypingH2, SocialIcons, IconButton } from './styles'
+import { TypingText, SocialIcons, IconButton } from './styles'
 
 const icons = [
   {
@@ -23,9 +23,9 @@ const icons = [
 const Presentation = () => {
   return (
     <Card>
-      <TypingH1>Hi! My name is Martín Calderón</TypingH1>
+      <h1>Hi! My name is Martín Calderón</h1>
 
-      <TypingH2>{"I'm a Full Stack Developer from Argentina 🇦🇷"}</TypingH2>
+      <TypingText>{"I'm a Full Stack Developer from Argentina 🇦🇷"}</TypingText>
 
       <SocialIcons
         initial={{ opacity: 0 }}
