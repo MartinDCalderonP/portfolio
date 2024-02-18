@@ -1,15 +1,13 @@
 import { useState } from 'react'
-import dynamic from 'next/dynamic'
 import Head from 'next/head'
 import Navbar from 'components/Navbar'
 import Presentation from 'components/Presentation'
+import AboutMe from 'components/AboutMe'
+import Projects from 'components/Projects'
+import TechStack from 'components/TechStack'
 import ArrowButton from 'components/ArrowButton'
 import Footer from 'components/Footer'
 import styled from '@emotion/styled'
-
-const AboutMe = dynamic(() => import('components/AboutMe'))
-const Projects = dynamic(() => import('components/Projects'))
-const TechStack = dynamic(() => import('components/TechStack'))
 
 export const MainContainer = styled.div`
   display: flex;
