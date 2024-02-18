@@ -22,7 +22,7 @@ export const MainContainer = styled.div`
 const items = ['Home', 'About Me', 'Projects', 'Tech Stack']
 
 const Home = () => {
-  const [activeItem, setActiveItem] = useState<string>('Home')
+  const [activeItem, setActiveItem] = useState<(typeof items)[number]>(items[0])
 
   const handleItemClick = (item: string) => {
     setActiveItem(item)
