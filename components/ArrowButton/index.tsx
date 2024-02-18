@@ -11,6 +11,7 @@ interface IArrowButton {
 const ArrowButton = ({ direction, onClick }: IArrowButton) => {
   return (
     <Button
+      aria-label={`Arrow ${direction} button`}
       direction={direction}
       onClick={onClick}
       whileHover={{ scale: 1.1 }}
