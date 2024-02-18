@@ -67,14 +67,14 @@ const projects = [
 
 const Projects = () => {
   return (
-    <Card title="Projects">
+    <Card title='Projects'>
       <Container>
         {projects.map((project) => (
           <ProjectCard key={project.title}>
             <p>{project.title}</p>
 
             <Picture>
-              <Image alt={project.title} src={project.image} />
+              <Image alt={project.title} src={project.image} loading='lazy' />
             </Picture>
 
             <Description>{project.description}</Description>
@@ -103,10 +103,7 @@ const Projects = () => {
 
         <MoreProjects>
           You can find more projects on my{' '}
-          <GitHubLink
-            href="https://github.com/MartinDCalderonP?tab=repositories"
-
-          >
+          <GitHubLink href='https://github.com/MartinDCalderonP?tab=repositories'>
             GitHub
           </GitHubLink>{' '}
           repository.
