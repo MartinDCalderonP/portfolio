@@ -7,17 +7,7 @@ import Projects from '@/Components/Projects'
 import TechStack from '@/Components/TechStack'
 import ArrowButton from '@/Components/ArrowButton'
 import Footer from '@/Components/Footer'
-import styled from '@emotion/styled'
-
-export const MainContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: fit-content;
-  width: 100%;
-  background-color: #fefcf3;
-`
+import { MainContainer } from './styles'
 
 const items = ['Home', 'About Me', 'Projects', 'Tech Stack']
 
