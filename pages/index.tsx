@@ -47,6 +47,7 @@ const Home = () => {
   return (
     <>
       <Head>
+        <html lang='en' />
         <title>Martín Calderón | Portfolio</title>
         <meta
           name='description'
