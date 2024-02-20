@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <Container>
-      <p>© Martín Calderón {currentYear}. All rights reserved</p>
+      <p>© Martín Calderón {currentYear}.</p>
     </Container>
   )
 }
