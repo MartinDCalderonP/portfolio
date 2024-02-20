@@ -1,7 +1,7 @@
 const today = new Date()
 const currentYear = today.getFullYear()
 const sinceTwentyEighteen = currentYear - 2018
-const sinceTwentyNineTeen = currentYear - 2019
+const sinceTwentyNineteen = currentYear - 2019
 const sinceTwentyTwenty = currentYear - 2020
 const sinceTwentyTwentyOne = currentYear - 2021
 const sinceTwentyTwentyTwo = currentYear - 2022
@@ -14,12 +14,12 @@ export const techs = [
       {
         name: 'HTML 5',
         image: 'https://img.icons8.com/color/48/000000/html-5--v1.png',
-        years: sinceTwentyNineTeen
+        years: sinceTwentyNineteen
       },
       {
         name: 'CSS 3',
         image: 'https://img.icons8.com/color/48/000000/css3.png',
-        years: sinceTwentyNineTeen
+        years: sinceTwentyNineteen
       },
       {
         name: 'SASS',
@@ -29,7 +29,7 @@ export const techs = [
       {
         name: 'JavaScript',
         image: 'https://img.icons8.com/color/48/000000/javascript--v1.png',
-        years: sinceTwentyNineTeen
+        years: sinceTwentyNineteen
       },
       {
         name: 'TypeScript',
@@ -62,7 +62,7 @@ export const techs = [
         name: 'jQuery',
         image:
           'https://seeklogo.com/images/J/jquery-logo-CFE6ECE363-seeklogo.com.png',
-        years: sinceTwentyNineTeen
+        years: sinceTwentyNineteen
       },
       {
         name: 'JestJS',
@@ -95,7 +95,7 @@ export const techs = [
         name: 'Bootstrap',
         image:
           'https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png',
-        years: sinceTwentyNineTeen
+        years: sinceTwentyNineteen
       },
       {
         name: 'Materialize',
@@ -268,12 +268,12 @@ export const techs = [
       {
         name: 'Git',
         image: 'https://img.icons8.com/color/48/000000/git.png',
-        years: sinceTwentyNineTeen
+        years: sinceTwentyNineteen
       },
       {
         name: 'GitHub',
         image: 'https://img.icons8.com/color/48/000000/github--v1.png',
-        years: sinceTwentyNineTeen
+        years: sinceTwentyNineteen
       },
       {
         name: 'GitLab',
