@@ -180,6 +180,11 @@ export const techs = [
         image:
           'https://seeklogo.com/images/P/pnpm-logo-21DC828CD8-seeklogo.com.png',
         years: sinceTwentyTwentyThree
+      },
+      {
+        name: 'Drupal',
+        image: 'https://img.icons8.com/color/48/000000/drupal.png',
+        years: sinceTwentyTwentyThree
       }
     ]
   },
