@@ -6,7 +6,6 @@ import AboutMe from '@/Components/AboutMe'
 import Projects from '@/Components/Projects'
 import TechStack from '@/Components/TechStack'
 import ArrowButton from '@/Components/ArrowButton'
-import Footer from '@/Components/Footer'
 import { MainContainer } from './styles'
 
 const items = ['Home', 'About Me', 'Projects', 'Tech Stack']
@@ -50,8 +49,6 @@ const Home = () => {
 
         <ArrowButton direction='right' onClick={handleRightArrowClick} />
       </MainContainer>
-
-      <Footer />
     </>
   )
 }
