@@ -7,8 +7,11 @@ interface ICard {
 }
 
 const Card = ({ children, title }: ICard) => {
+  const currentId = title ? title.toLowerCase() : 'home'
+
   return (
     <Container
+      id={currentId}
       initial={{ x: 200, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.25, type: 'spring', stiffness: 100 }}
