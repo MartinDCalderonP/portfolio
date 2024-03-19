@@ -6,7 +6,7 @@ export const Container = styled(motion.div)`
   align-items: flex-start;
   justify-content: center;
   height: 100%;
-  gap: 1.5rem;
+  gap: 2rem;
 
   @media (width < 48rem) {
     flex-direction: column;
@@ -30,7 +30,7 @@ export const Row = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
   margin: 1rem 0;
 `
 
@@ -42,12 +42,17 @@ export const TechCard = styled(motion.div)`
   text-align: center;
   min-height: 9.375rem;
   width: 9.375rem;
-  height: fit-content;
+  height: 9.375rem;
   border-radius: 0.625rem;
   border: 0.063rem solid #dba39a;
   padding: 1rem 0.5rem;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
   background-color: #f0dbdb;
+  gap: 0.5rem;
+
+  & p {
+    margin: 0;
+  }
 
   @media (width < 48rem) {
     width: 7.813rem;
