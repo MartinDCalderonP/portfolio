@@ -9,7 +9,7 @@ export const Container = styled.nav`
   justify-content: flex-end;
   left: 0;
   min-height: 4.375rem;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   position: sticky;
   top: 0;
   width: 100%;
@@ -22,6 +22,8 @@ export const List = styled.ul`
   gap: 1rem;
   justify-content: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
 `
 
 export const ListItem = styled(motion.li)`
