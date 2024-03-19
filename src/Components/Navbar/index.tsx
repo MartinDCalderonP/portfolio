@@ -1,12 +1,18 @@
+import { useState } from 'react'
 import { Container, List, ListItem, Underline } from './styles'
 
 interface INavbar {
-  activeItem: string;
-  handleItemClick: (item: string) => void;
-  items: string[];
+  items: string[]
 }
 
-const Navbar = ({ activeItem, handleItemClick, items }: INavbar) => {
+const Navbar = ({ items }: INavbar) => {
+  const [hoveredItem, setHoveredItem] = useState<string>('')
+
+  const handleItemClick = (item: string) => {
+    const element = document.getElementById(item.toLowerCase())
+    element?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <Container>
       <List>
@@ -14,16 +20,19 @@ const Navbar = ({ activeItem, handleItemClick, items }: INavbar) => {
           <ListItem
             key={item}
             onClick={() => handleItemClick(item)}
+            onHoverEnd={() => setHoveredItem('')}
+            onHoverStart={() => setHoveredItem(item)}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
             {item}
 
-            {activeItem === item && (
+            {hoveredItem === item && (
               <Underline
                 animate={{ width: '100%' }}
+                className='underline'
                 initial={{ width: '0%' }}
-                transition={{ duration: 0.5, type: 'spring', stiffness: 120 }}
+                transition={{ duration: 0.2, type: 'spring', stiffness: 120 }}
               />
             )}
           </ListItem>
