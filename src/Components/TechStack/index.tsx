@@ -1,10 +1,10 @@
-import Card from '@/Components/Card'
+import Section from '@/Components/Section'
 import { Container, Column, Row, TechCard, LogoImage } from './styles'
 import { sortedTechsByItemYears } from './utils'
 
 const TechStack = () => {
   return (
-    <Card title='Tech Stack'>
+    <Section title='Tech Stack'>
       <Container>
         {sortedTechsByItemYears?.map(({ title, items }) => (
           <Column key={title}>
@@ -26,7 +26,7 @@ const TechStack = () => {
           </Column>
         ))}
       </Container>
-    </Card>
+    </Section>
   )
 }
 

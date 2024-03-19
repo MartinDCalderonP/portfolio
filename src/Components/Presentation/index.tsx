@@ -1,10 +1,10 @@
-import Card from '@/Components/Card'
+import Section from '@/Components/Section'
 import { MainTitle, TypingText, SocialIcons, IconButton } from './styles'
 import { socialIcons } from './socialIcons'
 
 const Presentation = () => {
   return (
-    <Card>
+    <Section>
       <MainTitle>Hi! My name is Martín Calderón</MainTitle>
 
       <TypingText>{"I'm a Full Stack Developer from Argentina 🇦🇷"}</TypingText>
@@ -28,7 +28,7 @@ const Presentation = () => {
           </IconButton>
         ))}
       </SocialIcons>
-    </Card>
+    </Section>
   )
 }
 

@@ -1,12 +1,12 @@
 import { ReactNode } from 'react'
 import { Container, TitleUnderline } from './styles'
 
-interface CardProps {
+interface SectionProps {
   children: ReactNode
   title?: string
 }
 
-const Card = ({ children, title }: CardProps) => {
+const Section = ({ children, title }: SectionProps) => {
   const currentId = title ? title.toLowerCase() : 'home'
 
   return (
@@ -29,4 +29,4 @@ const Card = ({ children, title }: CardProps) => {
   )
 }
 
-export default Card
+export default Section

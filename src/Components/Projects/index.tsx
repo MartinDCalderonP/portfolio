@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { FiGithub, FiLink } from 'react-icons/fi'
-import Card from '@/Components/Card'
+import Section from '@/Components/Section'
 import {
   Container,
   Description,
@@ -16,7 +16,7 @@ import { projects } from './projects'
 
 const Projects = () => {
   return (
-    <Card title='Projects'>
+    <Section title='Projects'>
       <Container>
         {projects.map((project) => (
           <ProjectCard key={project.title}>
@@ -58,7 +58,7 @@ const Projects = () => {
           repository.
         </MoreProjects>
       </Container>
-    </Card>
+    </Section>
   )
 }
 

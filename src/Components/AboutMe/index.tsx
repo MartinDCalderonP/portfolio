@@ -1,4 +1,4 @@
-import Card from '@/Components/Card'
+import Section from '@/Components/Section'
 import { motion } from 'framer-motion'
 import { Container } from './styles'
 import { lines } from './lines'
@@ -11,7 +11,7 @@ const AboutMe = () => {
   }
 
   return (
-    <Card title='About Me'>
+    <Section title='About Me'>
       <Container>
         {lines?.map((line) => (
           <motion.p key={line} whileHover={whileHover}>
@@ -19,7 +19,7 @@ const AboutMe = () => {
           </motion.p>
         ))}
       </Container>
-    </Card>
+    </Section>
   )
 }
 
