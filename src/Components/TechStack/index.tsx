@@ -11,14 +11,14 @@ const TechStack = () => {
             <h2>{title}</h2>
 
             <Row>
-              {items?.map(({ name, image, years }) => (
+              {items?.map(({ name, image, year }) => (
                 <TechCard key={name} whileHover={{ scale: 1.1 }}>
                   {image && <LogoImage src={image} alt={name} loading='lazy' />}
 
                   <p>{name}</p>
 
                   <span>
-                    {years} exp year{years > 1 && 's'}
+                    {year} exp year{year > 1 && 's'}
                   </span>
                 </TechCard>
               ))}
