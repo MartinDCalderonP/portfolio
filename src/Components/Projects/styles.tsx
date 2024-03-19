@@ -17,19 +17,19 @@ export const ProjectCard = styled(motion.div)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 31.25rem;
+  width: 25rem;
   height: 31.25rem;
   padding: 1rem;
   border-radius: 0.625rem;
   border: 0.063rem solid #dba39a;
-  padding-top: 1.25rem;
+  padding: 1rem 2rem;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
   background-color: #f0dbdb;
 `
 
 export const Picture = styled(motion.picture)`
   width: 100%;
-  height: 100%;
+  height: 10rem;
   border-radius: 0.625rem;
   overflow: hidden;
 
@@ -41,14 +41,14 @@ export const Picture = styled(motion.picture)`
 `
 
 export const Description = styled(motion.p)`
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   margin: 1rem 0;
   text-align: center;
 `
 
 export const Tags = styled(motion.p)`
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 300;
   max-width: 80%;
 `
@@ -78,7 +78,7 @@ export const LinkButton = styled(motion.a)`
 export const MoreProjects = styled(motion.p)`
   font-size: 1rem;
   font-weight: 500;
-  margin: 1rem 0;
+  margin: 2rem 0 0;
   text-align: center;
 `
 

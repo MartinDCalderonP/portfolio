@@ -49,15 +49,15 @@ const Projects = () => {
             </LinksContainer>
           </ProjectCard>
         ))}
-
-        <MoreProjects>
-          You can find more projects on my{' '}
-          <GitHubLink href='https://github.com/MartinDCalderonP?tab=repositories'>
-            GitHub
-          </GitHubLink>{' '}
-          repository.
-        </MoreProjects>
       </Container>
+
+      <MoreProjects>
+        You can find more projects on my{' '}
+        <GitHubLink href='https://github.com/MartinDCalderonP?tab=repositories'>
+          GitHub
+        </GitHubLink>{' '}
+        repository.
+      </MoreProjects>
     </Section>
   )
 }
