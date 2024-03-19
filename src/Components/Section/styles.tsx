@@ -9,6 +9,7 @@ export const Container = styled(motion.div)`
   justify-content: center;
   min-height: 80vh;
   padding-top: 3.5rem;
+  width: 95%;
 `
 
 export const TitleUnderline = styled.div`
