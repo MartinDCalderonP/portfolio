@@ -1,14 +1,7 @@
 import Card from '@/Components/Card'
 import { motion } from 'framer-motion'
 import { Container } from './styles'
-
-const texts = [
-  "I'm a Full Stack Developer  with a passion for building web applications and learning new stuff. 📖",
-  "I've working experience with React since 2020 and I'm looking for a new challenge. 🚀",
-  'Also, I can make Back End applications with Node, Express, SQL, MongoDB and other technologies. 👨🏽‍💻',
-  'My hobbies include reading, playing with my two cats, cooking and watching movies. 🎞',
-  'I know Spanish (Native), English (C2), Portuguese (Intermediate) and French (Basic). 🌎'
-]
+import { lines } from './lines'
 
 const AboutMe = () => {
   const whileHover = {
@@ -20,9 +13,9 @@ const AboutMe = () => {
   return (
     <Card title='About Me'>
       <Container>
-        {texts?.map((text) => (
-          <motion.p key={text} whileHover={whileHover}>
-            {text}
+        {lines?.map((line) => (
+          <motion.p key={line} whileHover={whileHover}>
+            {line}
           </motion.p>
         ))}
       </Container>
