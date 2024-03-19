@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { Container, List, ListItem, Underline } from './styles'
 
-interface INavbar {
+interface NavbarProps {
   items: string[]
 }
 
-const Navbar = ({ items }: INavbar) => {
+const Navbar = ({ items }: NavbarProps) => {
   const [hoveredItem, setHoveredItem] = useState<string>('')
 
   const handleItemClick = (item: string) => {

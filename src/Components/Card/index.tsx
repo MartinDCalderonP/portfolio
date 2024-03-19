@@ -1,12 +1,12 @@
 import { ReactNode } from 'react'
 import { Container, TitleUnderline } from './styles'
 
-interface ICard {
+interface CardProps {
   children: ReactNode
   title?: string
 }
 
-const Card = ({ children, title }: ICard) => {
+const Card = ({ children, title }: CardProps) => {
   const currentId = title ? title.toLowerCase() : 'home'
 
   return (
