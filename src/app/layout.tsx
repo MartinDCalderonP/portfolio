@@ -2,6 +2,7 @@ import { ReactNode } from 'react'
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import './globals.css'
+import { Analytics } from '@vercel/analytics/react'
 
 const fontFamily = Roboto({
   weight: '400',
@@ -21,7 +22,10 @@ const RootLayout = ({
   return (
     <html lang='en'>
       <link rel='shortcut icon' href='/favicon-32x32.png' type='image/x-icon' />
-      <body className={fontFamily.className}>{children}</body>
+      <body className={fontFamily.className}>
+        <Analytics />
+        {children}
+      </body>
     </html>
   )
 }
