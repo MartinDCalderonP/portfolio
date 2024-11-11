@@ -4,7 +4,7 @@ export const socialIcons = [
   {
     name: 'LinkedIn',
     icon: <FiLinkedin />,
-    link: 'https://www.linkedin.com/in/mart%C3%ADn-calder%C3%B3n/'
+    link: 'https://www.linkedin.com/in/martincalderon92'
   },
   {
     name: 'GitHub',
