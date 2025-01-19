@@ -6,6 +6,7 @@ const TwentyTwenty = currentYear - 2020
 const TwentyTwentyOne = currentYear - 2021
 const TwentyTwentyTwo = currentYear - 2022
 const TwentyTwentyThree = currentYear - 2023
+const TwentyTwentyFour = currentYear - 2024
 
 export const techs = [
   {
@@ -185,6 +186,12 @@ export const techs = [
         name: 'Drupal',
         image: 'https://img.icons8.com/color/48/000000/drupal.png',
         year: TwentyTwentyThree
+      },
+      {
+        name: 'Astro',
+        image:
+          'https://logosandtypes.com/wp-content/uploads/2023/03/astro-framework.svg',
+        year: TwentyTwentyFour
       }
     ]
   },
