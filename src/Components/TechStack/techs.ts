@@ -333,7 +333,7 @@ export const techs = [
       {
         name: 'Strapi',
         image:
-          'https://seeklogo.com/images/S/strapi-logo-4D3F1A0E5C-seeklogo.com.png',
+          'https://yt3.googleusercontent.com/frBWP24Yx3w3EVtQgB7-Z3KI46w272tn3ZCBbpHfaQutVnMHe49-fLutBRUgfP3hO9iQQYokkg=s900-c-k-c0x00ffffff-no-rj',
         year: TwentyTwentyFive
       }
     ]
