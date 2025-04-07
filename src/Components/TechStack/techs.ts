@@ -7,6 +7,7 @@ const TwentyTwentyOne = currentYear - 2021
 const TwentyTwentyTwo = currentYear - 2022
 const TwentyTwentyThree = currentYear - 2023
 const TwentyTwentyFour = currentYear - 2024
+const TwentyTwentyFive = currentYear - 2025
 
 export const techs = [
   {
@@ -328,6 +329,12 @@ export const techs = [
         image:
           'https://seeklogo.com/images/S/swagger-logo-A49F73BAF4-seeklogo.com.png',
         year: TwentyTwentyThree
+      },
+      {
+        name: 'Strapi',
+        image:
+          'https://seeklogo.com/images/S/strapi-logo-4D3F1A0E5C-seeklogo.com.png',
+        year: TwentyTwentyFive
       }
     ]
   }
