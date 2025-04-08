@@ -335,6 +335,11 @@ export const techs = [
         image:
           'https://yt3.googleusercontent.com/frBWP24Yx3w3EVtQgB7-Z3KI46w272tn3ZCBbpHfaQutVnMHe49-fLutBRUgfP3hO9iQQYokkg=s900-c-k-c0x00ffffff-no-rj',
         year: TwentyTwentyFive
+      },
+      {
+        name: 'PostgreSQL',
+        image: 'https://img.icons8.com/color/48/000000/postgreesql.png',
+        year: TwentyTwenty
       }
     ]
   }
