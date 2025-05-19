@@ -3,5 +3,21 @@
     "next/core-web-vitals",
     "standard",
     "plugin:@typescript-eslint/recommended"
-  ]
+  ],
+  "rules": {
+    "@typescript-eslint/consistent-type-exports": [
+      "warn",
+      {
+        "fixMixedExportsWithInlineTypeSpecifier": true
+      }
+    ],
+    "@typescript-eslint/consistent-type-imports": [
+      "warn",
+      {
+        "fixStyle": "inline-type-imports",
+        "prefer": "type-imports"
+      }
+    ],
+    "@typescript-eslint/no-import-type-side-effects": ["warn"]
+  }
 }
