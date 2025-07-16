@@ -4,6 +4,9 @@
     "standard",
     "plugin:@typescript-eslint/recommended"
   ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
     "@typescript-eslint/consistent-type-exports": [
       "warn",
